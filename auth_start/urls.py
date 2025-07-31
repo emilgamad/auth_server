@@ -1,3 +1,8 @@
+
+"""
+URL configuration for the auth_start app.
+Defines API endpoints for token generation, validation, and status checking.
+"""
 from django.urls import path
 from .views import generate_token, validate_token, check_token
 
